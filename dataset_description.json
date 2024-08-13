@@ -1,0 +1,9 @@
+{
+    "Name": "Free Recall of Word Lists with Repeated Items",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Haydn G. Herrema",
+        "Michael J. Kahana"
+    ]
+}

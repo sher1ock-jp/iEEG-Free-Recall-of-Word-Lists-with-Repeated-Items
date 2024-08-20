@@ -1,2 +1,2 @@
 from .data_loader import load_data
-from .data_summary import summarize_data
+from .behavioral_events import plot_behavioral_events

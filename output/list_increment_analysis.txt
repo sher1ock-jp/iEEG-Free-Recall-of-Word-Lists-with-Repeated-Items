@@ -1,0 +1,233 @@
+List Increment Analysis:
+List -999: Start: 3943.31s, End: 4203.05s, Duration: 259.74s
+List 0: Start: 0.00s, End: 354.59s, Duration: 354.59s
+List 1: Start: 354.59s, End: 514.34s, Duration: 159.75s
+List 2: Start: 514.34s, End: 1348.23s, Duration: 833.89s
+List 3: Start: 1348.23s, End: 1476.72s, Duration: 128.49s
+List 4: Start: 1476.72s, End: 1611.60s, Duration: 134.88s
+List 5: Start: 1611.60s, End: 1759.40s, Duration: 147.80s
+List 6: Start: 1759.40s, End: 1883.67s, Duration: 124.27s
+List 7: Start: 1883.67s, End: 2004.37s, Duration: 120.69s
+List 8: Start: 2004.37s, End: 2128.74s, Duration: 124.37s
+List 9: Start: 2128.74s, End: 2247.18s, Duration: 118.44s
+List 10: Start: 2247.18s, End: 2368.15s, Duration: 120.98s
+List 11: Start: 2368.15s, End: 2604.63s, Duration: 236.48s
+List 12: Start: 2604.63s, End: 2733.57s, Duration: 128.94s
+List 13: Start: 2733.57s, End: 2863.38s, Duration: 129.80s
+List 14: Start: 2863.38s, End: 3017.37s, Duration: 153.99s
+List 15: Start: 3017.37s, End: 3153.35s, Duration: 135.98s
+List 16: Start: 3153.35s, End: 3288.71s, Duration: 135.35s
+List 17: Start: 3288.71s, End: 3433.90s, Duration: 145.19s
+List 18: Start: 3433.90s, End: 3681.79s, Duration: 247.90s
+List 19: Start: 3681.79s, End: 3803.29s, Duration: 121.50s
+List 20: Start: 3803.29s, End: 3943.31s, Duration: 140.02s
+
+Events at List Transitions:
+
+Transition to List 0:
+Last few events of previous list:
+Empty DataFrame
+Columns: [onset, trial_type, item_name]
+Index: []
+
+First few events of new list:
+ onset trial_type item_name
+ 0.000      START       NaN
+ 0.008 SESS_START       NaN
+
+Transition to List 1:
+Last few events of previous list:
+  onset  trial_type item_name
+354.286 REC_WORD_VV        <>
+354.540     REC_END       NaN
+
+First few events of new list:
+  onset  trial_type item_name
+354.587 TRIAL_START       NaN
+
+Transition to List 2:
+Last few events of previous list:
+  onset  trial_type item_name
+514.072 REC_WORD_VV        <>
+514.294     REC_END       NaN
+
+First few events of new list:
+  onset  trial_type item_name
+514.342 TRIAL_START       NaN
+
+Transition to List 3:
+Last few events of previous list:
+   onset  trial_type item_name
+1347.945 REC_WORD_VV        <>
+1348.181     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+1348.231 TRIAL_START       NaN
+
+Transition to List 4:
+Last few events of previous list:
+   onset  trial_type item_name
+1476.425 REC_WORD_VV        <>
+1476.668     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+1476.722 TRIAL_START       NaN
+
+Transition to List 5:
+Last few events of previous list:
+   onset  trial_type item_name
+1611.310 REC_WORD_VV        <>
+1611.554     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+1611.604 TRIAL_START       NaN
+
+Transition to List 6:
+Last few events of previous list:
+   onset trial_type item_name
+1759.351    REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+1759.405 TRIAL_START       NaN
+
+Transition to List 7:
+Last few events of previous list:
+   onset  trial_type item_name
+1883.376 REC_WORD_VV        <>
+1883.621     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+1883.675 TRIAL_START       NaN
+
+Transition to List 8:
+Last few events of previous list:
+   onset  trial_type item_name
+2004.075 REC_WORD_VV        <>
+2004.320     REC_END       NaN
+
+First few events of new list:
+  onset  trial_type item_name
+2004.37 TRIAL_START       NaN
+
+Transition to List 9:
+Last few events of previous list:
+   onset  trial_type item_name
+2128.457 REC_WORD_VV        <>
+2128.693     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+2128.739 TRIAL_START       NaN
+
+Transition to List 10:
+Last few events of previous list:
+   onset  trial_type item_name
+2246.888 REC_WORD_VV        <>
+2247.123     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+2247.177 TRIAL_START       NaN
+
+Transition to List 11:
+Last few events of previous list:
+   onset  trial_type item_name
+2364.155 REC_WORD_VV        <>
+2365.155 REC_WORD_VV        <>
+2368.104     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+2368.153 TRIAL_START       NaN
+
+Transition to List 12:
+Last few events of previous list:
+   onset trial_type item_name
+2604.583    REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+2604.633 TRIAL_START       NaN
+
+Transition to List 13:
+Last few events of previous list:
+   onset  trial_type item_name
+2723.720 REC_WORD_VV        <>
+2724.720 REC_WORD_VV        <>
+2733.518     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+2733.572 TRIAL_START       NaN
+
+Transition to List 14:
+Last few events of previous list:
+   onset trial_type item_name
+2863.327    REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+2863.377 TRIAL_START       NaN
+
+Transition to List 15:
+Last few events of previous list:
+   onset  trial_type item_name
+3008.681 REC_WORD_VV        <>
+3017.321     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+3017.372 TRIAL_START       NaN
+
+Transition to List 16:
+Last few events of previous list:
+   onset  trial_type item_name
+3148.039 REC_WORD_VV        <>
+3153.308     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+3153.354 TRIAL_START       NaN
+
+Transition to List 17:
+Last few events of previous list:
+   onset trial_type item_name
+3288.665    REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+3288.708 TRIAL_START       NaN
+
+Transition to List 18:
+Last few events of previous list:
+   onset  trial_type item_name
+3424.778 REC_WORD_VV        <>
+3428.240 REC_WORD_VV        <>
+3433.842     REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+3433.897 TRIAL_START       NaN
+
+Transition to List 19:
+Last few events of previous list:
+   onset trial_type item_name
+3681.748    REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+3681.794 TRIAL_START       NaN
+
+Transition to List 20:
+Last few events of previous list:
+   onset trial_type item_name
+3803.246    REC_END       NaN
+
+First few events of new list:
+   onset  trial_type item_name
+3803.291 TRIAL_START       NaN

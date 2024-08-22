@@ -7,8 +7,9 @@
     - [Notes](#notes)
     - [Issues](#issues)
     - [Dataset Exploring](#dataset-exploring)
-      - [What is Events Data](#what-is-events-data)
-    - [What is List](#what-is-list)
+      - [Events Data](#events-data)
+    - [Word Repetitions](#word-repetitions)
+  - [Sample Dataset](#sample-dataset)
 
 ### Description
 This dataset contains behavioral events and intracranial electrophysiological recordings from a repated item free recall task.  The experiment consists of participants studying a list of words, presented visually one at a time, and then freely recalling the words from the just-presented list in any order. On each list, there is a 7-second delay period between the encoding and recall phases.  The data were collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University of Pennsylvania.
@@ -76,7 +77,7 @@ The main manipulation in this paradigm is the repetition of items in the studied
 
 ### Dataset Exploring
 
-#### What is Events Data
+#### Events Data
 | Onset   | Duration | Sample | Trial Type  | Response Time | Stim File                  | Item Name | Serial Pos | Repeats | List | Experiment | Session | Subject |
 |---------|----------|--------|-------------|---------------|----------------------------|-----------|------------|---------|------|------------|---------|---------|
 | 0.0     | 0.008    | 11048  | START       | n/a           | n/a                        | n/a       | -999       | -999    | 0    | RepFR1     | 0       | R1204T  |
@@ -91,5 +92,37 @@ The main manipulation in this paradigm is the repetition of items in the studied
 
 ![behavioral_events_over_time](output/behavioral_events_over_time.png)
 
-### What is List
-For detailed analysis of list increments and transition events, refer to the [List Increment Analysis](./output/list_increment_analysis.txt) file.
+### Word Repetitions
+## Sample Dataset
+
+| Onset  | Duration | Sample | Trial Type | Response Time | Stim File                   | Item Name | Serialpos | Repeats | List | Experiment | Session | Subject |
+|--------|----------|--------|------------|---------------|-----------------------------|-----------|-----------|---------|------|------------|---------|---------|
+| 250.127| 1.6      | 261175 | WORD       | NaN           | wordpools/wordpool_EN.txt    | HORN      | 0         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 252.544| 1.6      | 263592 | WORD       | NaN           | wordpools/wordpool_EN.txt    | ARCH      | 1         | 1       | 0    | RepFR1     | 0       | R1204T  |
+| 255.095| 1.6      | 266143 | WORD       | NaN           | wordpools/wordpool_EN.txt    | SPONGE    | 2         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 257.562| 1.6      | 268610 | WORD       | NaN           | wordpools/wordpool_EN.txt    | ROCK      | 3         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 260.046| 1.6      | 271094 | WORD       | NaN           | wordpools/wordpool_EN.txt    | THREAD    | 4         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 262.429| 1.6      | 273477 | WORD       | NaN           | wordpools/wordpool_EN.txt    | CAVE      | 5         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 264.829| 1.6      | 275877 | WORD       | NaN           | wordpools/wordpool_EN.txt    | PEARL     | 6         | 2       | 0    | RepFR1     | 0       | R1204T  |
+| 267.281| 1.6      | 278329 | WORD       | NaN           | wordpools/wordpool_EN.txt    | ROCK      | 7         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 269.680| 1.6      | 280728 | WORD       | NaN           | wordpools/wordpool_EN.txt    | THREAD    | 8         | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 272.063| 1.6      | 283111 | WORD       | NaN           | wordpools/wordpool_EN.txt    | CLAM      | 9         | 2       | 0    | RepFR1     | 0       | R1204T  |
+| 274.480| 1.6      | 285528 | WORD       | NaN           | wordpools/wordpool_EN.txt    | SNACK     | 10        | 1       | 0    | RepFR1     | 0       | R1204T  |
+| 277.048| 1.6      | 288096 | WORD       | NaN           | wordpools/wordpool_EN.txt    | ROCK      | 11        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 279.415| 1.6      | 290463 | WORD       | NaN           | wordpools/wordpool_EN.txt    | CAVE      | 12        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 281.998| 1.6      | 293046 | WORD       | NaN           | wordpools/wordpool_EN.txt    | PURSE     | 13        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 284.399| 1.6      | 295447 | WORD       | NaN           | wordpools/wordpool_EN.txt    | CLAM      | 14        | 2       | 0    | RepFR1     | 0       | R1204T  |
+| 286.931| 1.6      | 297979 | WORD       | NaN           | wordpools/wordpool_EN.txt    | STICK     | 15        | 2       | 0    | RepFR1     | 0       | R1204T  |
+| 289.366| 1.6      | 300414 | WORD       | NaN           | wordpools/wordpool_EN.txt    | PEARL     | 16        | 2       | 0    | RepFR1     | 0       | R1204T  |
+| 291.799| 1.6      | 302847 | WORD       | NaN           | wordpools/wordpool_EN.txt    | SPONGE    | 17        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 294.400| 1.6      | 305448 | WORD       | NaN           | wordpools/wordpool_EN.txt    | HORN      | 18        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 296.850| 1.6      | 307898 | WORD       | NaN           | wordpools/wordpool_EN.txt    | STICK     | 19        | 2       | 0    | RepFR1     | 0       | R1204T  |
+| 299.218| 1.6      | 310266 | WORD       | NaN           | wordpools/wordpool_EN.txt    | CAVE      | 20        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 301.701| 1.6      | 312749 | WORD       | NaN           | wordpools/wordpool_EN.txt    | PURSE     | 21        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 304.284| 1.6      | 315332 | WORD       | NaN           | wordpools/wordpool_EN.txt    | HORN      | 22        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 306.768| 1.6      | 317816 | WORD       | NaN           | wordpools/wordpool_EN.txt    | HAT       | 23        | 1       | 0    | RepFR1     | 0       | R1204T  |
+| 309.151| 1.6      | 320199 | WORD       | NaN           | wordpools/wordpool_EN.txt    | THREAD    | 24        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 311.736| 1.6      | 322784 | WORD       | NaN           | wordpools/wordpool_EN.txt    | SPONGE    | 25        | 3       | 0    | RepFR1     | 0       | R1204T  |
+| 314.302| 1.6      | 325350 | WORD       | NaN           | wordpools/wordpool_EN.txt    | PURSE     | 26        | 3       | 0    | RepFR1     | 0       | R1204T  |
+
+![word_repetitions_example](output/word_repetitions_trial_1.png)

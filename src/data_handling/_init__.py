@@ -1,2 +1,3 @@
 from .data_loader import load_data
+from .eeg_stimulations import visualize_electrodes_position
 from .behavioral_events import plot_behavioral_events, visualize_word_repetitions, analyze_list_increments
